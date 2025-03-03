@@ -71,6 +71,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.7.1.intellisense.js" />
+    <Content Include="CadenaConsultas.aspx" />
+    <Content Include="CadenadeConsulta.html" />
     <Content Include="CadenasdeConsulta.aspx" />
     <Content Include="Scripts\jquery-3.7.1.js" />
     <Content Include="Scripts\jquery-3.7.1.min.js" />
@@ -79,6 +81,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CadenaConsultas.aspx.cs">
+      <DependentUpon>CadenaConsultas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CadenaConsultas.aspx.designer.cs">
+      <DependentUpon>CadenaConsultas.aspx</DependentUpon>
+    </Compile>
     <Compile Include="CadenasdeConsulta.aspx.cs">
       <DependentUpon>CadenasdeConsulta.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
